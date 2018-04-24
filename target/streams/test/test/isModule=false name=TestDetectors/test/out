@@ -1,0 +1,5 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mTestDetectors:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Should detect sentences[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Should tokenize sentences[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Should parse date according to formatters[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Should parse frase[0m[0m
