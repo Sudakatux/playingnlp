@@ -1,6 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/home/jimmy/DevelopEnvironments/codingChallenge/OpenNlp/src/main/scala/Analizer.scala:53:75: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Array[String][0m
-[0m[[0m[31merror[0m] [0m[0m required: Array[opennlp.tools.util.Span][0m
-[0m[[0m[31merror[0m] [0m[0m    val calculateDateStart = dateMultiParser(unifySpans(findDateTimeTokens(tokens)))[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                          ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
