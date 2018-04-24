@@ -10,9 +10,9 @@ import org.joda.time.format.{DateTimeFormat, DateTimeFormatter, DateTimeFormatte
 
 
 object Analizer {
-  val sentenceDetector = new SentenceDetectorME(new SentenceModel(new FileInputStream("/home/jimmy/DevelopEnvironments/asimplemodule/gmainAnsweringMachine/gmail-answers/models/en-sent.bin")))
-  val tokenizer = new  TokenizerME(new TokenizerModel(new FileInputStream("/home/jimmy/DevelopEnvironments/asimplemodule/gmainAnsweringMachine/gmail-answers/models/en-token.bin")))
-  val dateFind = new NameFinderME(new TokenNameFinderModel(new FileInputStream("/home/jimmy/DevelopEnvironments/asimplemodule/gmainAnsweringMachine/gmail-answers/models/namefind/en-ner-date.bin")))
+  val sentenceDetector = new SentenceDetectorME(new SentenceModel(new FileInputStream("models/en-sent.bin")))
+  val tokenizer = new  TokenizerME(new TokenizerModel(new FileInputStream("models/en-token.bin")))
+  val dateFind = new NameFinderME(new TokenNameFinderModel(new FileInputStream("models/namefind/en-ner-date.bin")))
 
   val dateFormatters:Array[DateTimeParser] = Array("yyyy-MM-dd @ hh:mma","YYYY/MM/dd @ hh:mma", "MMM d yyyy @ hh:mma", "YYYY/MM/dd 'at' hh:mma","MMM d yyyy 'at' hh:mma","YYYY/MM/dd HH:mm")
     .map(DateTimeFormat.forPattern(_).getParser())
